@@ -1,0 +1,21 @@
+/*Richard Saseun CSS Styles*/
+
+/*Default Styles*/
+// General style overrides and custom classes
+@import url('https://fonts.googleapis.com/css?family=Dosis:400|Karla:400,700&display=swap');
+
+body {
+    font-family: 'Karla', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Dosis', sans-serif;
+    // font-weight: 400;
+
+    letter-spacing: .02rem;
+}

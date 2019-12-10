@@ -1,0 +1,13 @@
+//For all variables to be accessible by the project files
+
+//RichardSaseun variables
+@import "setup/variables";
+
+//bootstrap variables
+@import '../../node_modules/bootstrap/scss/functions';
+@import '../../node_modules/bootstrap/scss/variables';
+@import '../../node_modules/bootstrap/scss/mixins';
+
+// initial mistake when import this because on scoped styles
+// it kept on compiling the variables afresh, in ths case the entire bootstrap css
+//@import '../../node_modules/bootstrap/scss/bootstrap';

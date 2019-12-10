@@ -1,27 +1,34 @@
-# naijahacks-EchoAlert
-NaijaHacks Hackathon 2019
+# Richard Vue Starter Template
 
-Team Electrox_Genius
---------------------
+## Includes
+```
+Vue, Vuex, Sass, Prettier, Vue-router, Vuexpersistedstate, Yarn
+```
 
-Team Members
--------------
-Charles Urutashe
-Sasiliyu Adetunji
-Richard Saseun
+## Project setup
+```
+yarn install
+```
 
+### Compiles and hot-reloads for development
+```
+yarn run serve
+```
 
-Proposed Solution
-------------------
-A smart security web based system, that secures the user, by checking for intruder and alerting the user during security breach. The system uses a sensor to detects for intruders, and when an intruder is detected. It sends message and snapshot of the incident to the user via the user email address and display the video scene by streaming it on the web application. 
+### Compiles and minifies for production
+```
+yarn run build
+```
 
-Proposed Stack
----------------
-Bootstrap, Vuejs, and Python.
+### Run your tests
+```
+yarn run test
+```
 
-Benefit
--------
-1. It creates an eneabling safe environment for the user.
-2. it sends snapshot of the crime scene to the user, enabling the user or authorities to what the incident is like.
-3. IT streams the video on the web app in real time, this makes the user to visualize, the incident.
-4. the device is a good security system.
+### Lints and fixes files
+```
+yarn run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
