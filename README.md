@@ -7,21 +7,27 @@ Team Electrox_Genius
 Team Members
 -------------
 Charles Urutashe
-Sasiliyu Adetunji
+Oyedele Tomilola
 Richard Saseun
+John Joshua
 
 
 Proposed Solution
 ------------------
-A smart security web based system, that secures the user, by checking for intruder and alerting the user during security breach. The system uses a sensor to detects for intruders, and when an intruder is detected. It sends message and snapshot of the incident to the user via the user email address and display the video scene by streaming it on the web application. 
+A smart security web system, that secures the user, by checking for intruder and alerting the user during security breach. The system uses a sensor to detects for intruders, and when an intruder is detected. It sends message and snapshot of the incident to the user via the user email address and display the video scene by streaming it on the web application.
+two prototypes that support different technology are design and implemented.
+Model 1: 
+Sense for intruder using infrared sensor, when an intruder is detected it sends sms to the user. The user can be a single or multiple persons. A keypad is use to enter in the number of users (recipients) to send message to. It sends the messgae with the required location.
+Model 2:
+Sense for intruder using the motion sensor and whe an intruder is detected it will alert the user, via sms and call, send snapshot of the incident to the user gmail account. Stream the video via a web server (raspberry pi as the web server) or via a facebook account.
 
 Proposed Stack
 ---------------
-Bootstrap, Vuejs, and Python.
+Bootstrap, Vuejs, embedded c, nexmo API and Python.
 
 Benefit
 -------
-1. It creates an eneabling safe environment for the user.
-2. it sends snapshot of the crime scene to the user, enabling the user or authorities to what the incident is like.
-3. IT streams the video on the web app in real time, this makes the user to visualize, the incident.
+1. It creates an enabling a safe environment for the user.
+2. it sends snapshot of the crime scene to the user, enabling the user or authorities to knpw what the incident is like.
+3. It streams the video on the web server or facebook in real time, this makes the user to visualize, the incident.
 4. the device is a good security system.
