@@ -1,15 +1,5 @@
 
-##------------------------------------------
-##--- Author: Pradeep Singh
-##--- Blog: https://iotbytes.wordpress.com/programmatically-send-e-mail-from-raspberry-pi-using-python-and-gmail/
-##--- Date: 21st Feb 2017
-##--- Version: 1.0
-##--- Python Ver: 2.7
-##--- Description: This python code will send Plain Text and HTML based emails using Gmail SMTP server
-##------------------------------------------
 
-
-    
 import configparser, inspect, os
 import smtplib
 from email.mime.multipart import MIMEMultipart
